@@ -1,0 +1,14 @@
+.button {
+
+}
+.ellipse-btn {
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  border: none;
+}
+.ellipse-btn.active {
+  background: linear-gradient(135deg, rgb(92, 139, 255) 0%, rgb(255, 163, 240) 100%) 0px 0px / 100% 100%;
+  font-weight: 600;
+  color: #ffffff;
+}

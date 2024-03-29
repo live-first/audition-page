@@ -1,0 +1,44 @@
+.img-area {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  .event-card-back-img {
+    filter: blur(4px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .event-card-img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .no-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background-color: #e5e5e5;
+    .img-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      -webkit-transform: translateY(-50%) translateX(-50%);
+      color: #9c9c9c;
+      font-size: 20px;
+      font-weight: 800;
+      width: 100%;
+    }
+  }
+}

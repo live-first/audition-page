@@ -1,0 +1,50 @@
+.home {
+  background-color: #0443ffca;
+  min-width: 100vw;
+  min-height: 100vh;
+  .content-bg {
+    background-color: #ffffff;
+    overflow: hidden;
+  }
+  .top-view {
+    position: relative;
+    .rect-view {
+      width: 100%;
+      height: 300px;
+      background-color: aquamarine;
+    }
+    .shape-position1 {
+      transform: skewY(346deg) translate3d(-30%, -30%, 0);
+    }
+    .shape-position2 {
+      transform: skewY(346deg) translate3d(50%, 20%, 0);
+    }
+    .shape-position3 {
+      transform: skewY(346deg) translate3d(-30%, 60%, 0);
+    }
+    .vertical-text {
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+      font-size: 7rem;
+      font-weight: 700;
+      text-shadow: rgb(107, 210, 255) 3px 0px 0px, rgb(107, 210, 255) 2.83487px 0.981584px 0px, rgb(107, 210, 255) 2.35766px 1.85511px 0px, rgb(107, 210, 255) 1.62091px 2.52441px 0px, rgb(107, 210, 255) 0.705713px 2.91581px 0px, rgb(107, 210, 255) -0.287171px 2.98622px 0px, rgb(107, 210, 255) -1.24844px 2.72789px 0px, rgb(107, 210, 255) -2.07227px 2.16926px 0px, rgb(107, 210, 255) -2.66798px 1.37182px 0px, rgb(107, 210, 255) -2.96998px 0.42336px 0px, rgb(107, 210, 255) -2.94502px -0.571704px 0px, rgb(107, 210, 255) -2.59586px -1.50383px 0px, rgb(107, 210, 255) -1.96093px -2.27041px 0px, rgb(107, 210, 255) -1.11013px -2.78704px 0px, rgb(107, 210, 255) -0.137119px -2.99686px 0px, rgb(107, 210, 255) 0.850987px -2.87677px 0px, rgb(107, 210, 255) 1.74541px -2.43999px 0px, rgb(107, 210, 255) 2.44769px -1.73459px 0px, rgb(107, 210, 255) 2.88051px -0.838247px 0px;
+       .rotate-font {
+        position: absolute;
+        transform: rotateZ(30deg);
+        color: #ffffff;
+       }
+    }
+    .p-absolute {
+      position: absolute;
+    }
+  }
+}
+.arrow-clippath {
+  position: absolute;
+  display: inline-block;
+  width: 400px;
+  height: 48px;
+  transform: rotate(346deg);
+  background-color: #1E88E5;
+  clip-path: polygon(0 33%, 85% 33%, 85% 15%, 100% 50%, 85% 85%, 85% 67%, 0 67%);
+}

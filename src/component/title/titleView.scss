@@ -1,0 +1,21 @@
+.title-font {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #e14040;
+  background: linear-gradient(180deg, #ffffff 0%, #e14040) 0px 0px / 100% 100%;
+  font-style: italic;
+  border-radius: 40px;
+  text-shadow: 2px 2px 0 #ffffff, -2px 2px 0 #ffffff, 2px -2px 0 #ffffff, -2px -2px 0 #ffffff;
+  .ja {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    font-size: 0.3em;
+  }
+}

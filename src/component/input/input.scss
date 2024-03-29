@@ -1,0 +1,13 @@
+.input-area {
+  width: 100%;
+  margin-bottom: 10px;
+  .input-label {
+    font-weight: bold;
+  }
+  .input {
+    width: 98%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #a6a6a6;
+  }
+}

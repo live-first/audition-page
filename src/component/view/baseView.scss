@@ -1,0 +1,53 @@
+.base-view {
+  position: relative;
+  overflow: hidden;
+  .header-space {
+    height: 50px;
+  }
+  header {
+    position: fixed;
+    z-index: 50;
+    width: 100vw;
+    height: 50px;
+    background-color: #e14040;
+    top: 0;
+  }
+  main {
+    width: 100vw;
+    height: auto;
+    min-height: calc(100vh - 120px);
+  }
+  .errorMsg {
+    color: red;
+    margin: 0;
+    align-self: flex-start;
+    width: 100%;
+    text-align: start;
+    font-size: small;
+  }
+
+}
+@keyframes slideOutLeft {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOutRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-50vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+

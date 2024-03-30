@@ -9,6 +9,10 @@ import ContentView from '../component/view/contentView.tsx';
 
 const Home = () => {
 
+  const OnLine = () => {
+    window.open("https://lin.ee/YmMmBif", '_blank');
+  }
+
   return (
     <div className='home'>
       <Container maxWidth='sm' className='content-bg' style={{padding: '0'}}>
@@ -31,7 +35,7 @@ const Home = () => {
             <div className='p-absolute layer-2-absolute d-flex'>
               <SlideUpAnimation className='d-flex'>
                 <div className='vertical-text' style={{top: '380px', left: '0'}}>募集中<span className='rotate-font'>！</span></div>
-                <div className='vertical-text' style={{transform: 'translate(-40px,-50px)'}}>メンバー</div>
+                <div className='vertical-text vertical-member'>メンバー</div>
               </SlideUpAnimation>
               <div className='rect-view shape-position2'></div>
             </div>
@@ -45,7 +49,7 @@ const Home = () => {
 
             <SlideUpAnimation className='official-line-area'>
               <div className='entry-label'>▼エントリー、ご質問などはこちらから▼</div>
-              <EllipseButton className='entry-btn'>公式ライン</EllipseButton>
+              <EllipseButton className='entry-btn' onClick={OnLine}>公式ライン</EllipseButton>
             </SlideUpAnimation>
 
             <SlideUpAnimation>
@@ -67,7 +71,7 @@ const Home = () => {
             <SlideUpAnimation>
               <ContentView title='応募方法' className='official-line-area'>
                 <div className='entry-label-dark'>▼エントリー、ご質問などはこちらから▼</div>
-                <EllipseButton className='entry-btn'>公式ライン</EllipseButton>
+                <EllipseButton className='entry-btn' onClick={OnLine}>公式ライン</EllipseButton>
               </ContentView>
             </SlideUpAnimation>
             

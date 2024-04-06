@@ -326,6 +326,15 @@
 .mb-sm {
   margin-bottom: 10px;
 }
+.feature {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  .feature-text {
+    font-size: large;
+    color: #f74bfa;
+    font-weight: 600;
+  }
+}
 
 @keyframes anime1 {
   from {

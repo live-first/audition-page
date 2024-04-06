@@ -8,6 +8,7 @@ import EllipseButton from '../component/button/ellipseButton.tsx';
 import ContentView from '../component/view/contentView.tsx';
 import { IoMdCheckmark, IoMdArrowRoundDown } from "react-icons/io";
 import { HiMusicNote } from "react-icons/hi";
+import { BiCheckSquare } from "react-icons/bi";
 
 const Home = () => {
 
@@ -73,6 +74,10 @@ const Home = () => {
                   <div className='first-text mb-sm'>詳細は、面接時に説明したいと思っております。</div>
                   <div className='sub-title'><HiMusicNote style={{transform: 'translateY(2px)'}}/>私たちの特徴</div>
                   <div className='first-text mb-sm'>イベント制作として主催ライブ及び大きいイベントを裏方として支えてきました。この度、アイドル業界での制作視点での知見及び経験を活かしアイドルグループをプロデュースする運びとなりました。</div>
+                  <div className='feature'>
+                    <div className='feature-text'><BiCheckSquare style={{transform: 'translateY(2px)'}}/>運営が20〜25歳と若いチーム</div>
+                    <div className='feature-text'><BiCheckSquare style={{transform: 'translateY(2px)'}}/>制作チームがあり、大きいライブを担当</div>
+                  </div>
                   <div className='sub-title'><HiMusicNote style={{transform: 'translateY(2px)'}}/>オーディション参加費</div>
                   <div className='first-text'>ありません</div>
                   <div className='second-text mb-sm'>※但し、面接会場までの交通費のみご負担頂きます。</div>

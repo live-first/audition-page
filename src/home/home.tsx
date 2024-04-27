@@ -92,7 +92,7 @@ const Home = () => {
             <SlideUpAnimation>
               <ContentView title='応募資格'>
                 <div className='t-start'>
-                  <div><IoMdCheckmark style={{transform: 'translateY(2px)'}}/>16〜22歳の女性</div>
+                  <div><IoMdCheckmark style={{transform: 'translateY(2px)'}}/>16〜25歳の女性</div>
                   <div className='f-sm'>　　※未成年者は親権者の同意が必要</div>
                   <div><IoMdCheckmark style={{transform: 'translateY(2px)'}}/>心身ともに健康な方</div>
                   <div><IoMdCheckmark style={{transform: 'translateY(2px)'}}/>主に都内で活動ができる方</div>
